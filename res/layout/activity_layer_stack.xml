@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+    android:layout_weight="1"
+    android:background="@drawable/blue_bg">
+
+    <!-- Menu Panel -->
+    <RelativeLayout
+           android:id="@+id/menuPanel"
+           android:layout_height="match_parent"
+           android:layout_width="wrap_content"
+           android:gravity="right"
+           android:background="@drawable/gray_bg"
+           android:orientation="vertical" >
+       
+            <Button
+                android:id="@+id/menu_title_1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp" 
+                android:paddingLeft="15dp"             
+                android:gravity="center_vertical"
+                android:background="#353535"
+                android:textColor="@android:color/white"
+                android:text="@string/menu_title">     
+            </Button>
+
+        <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/listView1" android:layout_below="@+id/menu_title_1" android:background="#b5b5b5"/>
+
+
+    </RelativeLayout>
+            
+       <!-- Sliding Panel -->     
+		<LinearLayout
+                android:id="@+id/slidingPanel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:background="@android:color/white" >
+
+        		<RelativeLayout
+		            android:id="@+id/header"
+		            android:layout_width="match_parent"
+		            android:layout_height="50dp"
+		            android:background="@drawable/blue_bg" >
+
+		          	<View
+		                android:id="@+id/header_vertical_divider_1"
+		                android:layout_width="2dp"
+		                android:layout_height="fill_parent"
+		                android:layout_alignParentTop="true"
+		                android:layout_marginLeft="15dp"
+		                android:layout_toRightOf="@+id/menuViewButton"
+		                android:background="@drawable/engraved_bg" />
+
+                    <ImageView
+			                android:id="@+id/menuViewButton"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+                            android:clickable="true"
+			                android:contentDescription="@string/description"
+			                android:src="@drawable/icon_menu"
+			                android:visibility="visible" android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp" android:layout_alignParentTop="true"/>
+
+  				</RelativeLayout>
+            <view android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  class="com.example.slideoutmenu.TouchImageView" android:id="@+id/view"
+                  android:layout_gravity="left|center_vertical"/>
+
+
+        </LinearLayout>
+</FrameLayout>
