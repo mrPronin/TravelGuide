@@ -1,20 +1,20 @@
-com.example.travelguide.AboutScreen -> com.example.travelguide.AboutScreen:
+com.region.travelguide.AboutScreen -> com.region.travelguide.AboutScreen:
     void onCreate(android.os.Bundle) -> onCreate
-com.example.travelguide.AppScreen -> com.example.travelguide.AppScreen:
+com.region.travelguide.AppScreen -> com.region.travelguide.AppScreen:
     java.lang.String[] names -> a
     void onCreate(android.os.Bundle) -> onCreate
-com.example.travelguide.AppScreen$1 -> com.example.travelguide.a:
-    com.example.travelguide.AppScreen this$0 -> a
+com.region.travelguide.AppScreen$1 -> com.region.travelguide.a:
+    com.region.travelguide.AppScreen this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.example.travelguide.AppScreen$2 -> com.example.travelguide.b:
-    com.example.travelguide.AppScreen this$0 -> a
+com.region.travelguide.AppScreen$2 -> com.region.travelguide.b:
+    com.region.travelguide.AppScreen this$0 -> a
     void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
     void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
-com.example.travelguide.MainActivity -> com.example.travelguide.MainActivity:
+com.region.travelguide.MainActivity -> com.region.travelguide.MainActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
     void onClick(android.view.View) -> onClick
-com.example.travelguide.TouchImageView -> com.example.travelguide.TouchImageView:
+com.region.travelguide.TouchImageView -> com.region.travelguide.TouchImageView:
     android.graphics.Matrix matrix -> a
     int mode -> b
     android.graphics.PointF last -> c
@@ -37,10 +37,10 @@ com.example.travelguide.TouchImageView -> com.example.travelguide.TouchImageView
     float getFixTrans(float,float,float) -> a
     float getFixDragTrans(float,float,float) -> b
     void onMeasure(int,int) -> onMeasure
-com.example.travelguide.TouchImageView$1 -> com.example.travelguide.c:
-    com.example.travelguide.TouchImageView this$0 -> a
+com.region.travelguide.TouchImageView$1 -> com.region.travelguide.c:
+    com.region.travelguide.TouchImageView this$0 -> a
     boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
-com.example.travelguide.TouchImageView$ScaleListener -> com.example.travelguide.d:
-    com.example.travelguide.TouchImageView this$0 -> a
+com.region.travelguide.TouchImageView$ScaleListener -> com.region.travelguide.d:
+    com.region.travelguide.TouchImageView this$0 -> a
     boolean onScaleBegin(android.view.ScaleGestureDetector) -> onScaleBegin
     boolean onScale(android.view.ScaleGestureDetector) -> onScale
