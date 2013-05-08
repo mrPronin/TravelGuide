@@ -12,7 +12,7 @@
             android:layout_height="fill_parent" android:layout_weight="8">
         <view android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              class="com.region.travelguide.TouchImageView" android:id="@+id/snoopy" android:layout_alignParentLeft="true"
+              class="com.example.travelguide.TouchImageView" android:id="@+id/snoopy" android:layout_alignParentLeft="true"
               android:layout_alignParentTop="true"/>
     </RelativeLayout>
 </LinearLayout>

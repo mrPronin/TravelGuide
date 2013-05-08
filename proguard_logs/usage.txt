@@ -1,16 +1,16 @@
 android.annotation.SuppressLint
 android.annotation.TargetApi
-com.region.travelguide.BuildConfig
-com.region.travelguide.R
-com.region.travelguide.R$attr
-com.region.travelguide.R$dimen
-com.region.travelguide.R$drawable
-com.region.travelguide.R$id
-com.region.travelguide.R$layout
-com.region.travelguide.R$menu
-com.region.travelguide.R$string
-com.region.travelguide.R$style
-com.region.travelguide.TouchImageView:
+com.example.travelguide.BuildConfig
+com.example.travelguide.R
+com.example.travelguide.R$attr
+com.example.travelguide.R$dimen
+com.example.travelguide.R$drawable
+com.example.travelguide.R$id
+com.example.travelguide.R$layout
+com.example.travelguide.R$menu
+com.example.travelguide.R$string
+com.example.travelguide.R$style
+com.example.travelguide.TouchImageView:
     static final int NONE
     static final int DRAG
     static final int ZOOM
